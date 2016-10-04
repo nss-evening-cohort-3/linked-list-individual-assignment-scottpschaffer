@@ -7,6 +7,7 @@ namespace SinglyLinkedLists
 {
     public class SinglyLinkedList
     {
+        
         public SinglyLinkedList()
         {
             // NOTE: This constructor isn't necessary, once you've implemented the constructor below.
@@ -15,7 +16,8 @@ namespace SinglyLinkedLists
         // READ: http://msdn.microsoft.com/en-us/library/aa691335(v=vs.71).aspx
         public SinglyLinkedList(params object[] values)
         {
-            throw new NotImplementedException();
+            
+            //throw new NotImplementedException();
         }
 
         // READ: http://msdn.microsoft.com/en-us/library/6x16t2tx.aspx
@@ -37,7 +39,8 @@ namespace SinglyLinkedLists
 
         public void AddLast(string value)
         {
-            throw new NotImplementedException();
+            SinglyLinkedListNode node1 = new SinglyLinkedListNode(value);
+            //throw new NotImplementedException();
         }
 
         // NOTE: There is more than one way to accomplish this.  One is O(n).  The other is O(1).
